@@ -1,31 +1,19 @@
-/* * {
+* {
     background-color: black;
     color: white;
 }
 
-.grid-container {
-    display: grid;
-    justify-content: space-evenly;
-  }
+body {
+    margin: 0px;
+}
 
-img {
-    max-height: 700px;
-} */
-* {
-    background-color: black;
+main {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h1 {
-    color: white;
     text-align: center;
-}
-
-h3 {
-    color: white;
-}
-
-p {
-    color: white;
 }
 
 .navbar ul{
@@ -41,13 +29,22 @@ p {
     text-decoration: none;
     padding: 15px;
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 .navbar a:hover {
     background-color: hsl(0, 0%, 10%);
 }
 
-.navbar li {
-    float: left;
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+  }
+
+img {
+    max-height: 700px;
 }
+
+/* .navbar li {
+    float: left;
+} */

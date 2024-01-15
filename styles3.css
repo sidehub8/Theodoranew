@@ -1,0 +1,116 @@
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    /* min-height: 115vh; */
+    /* background-color: black;
+    background-image: url("img/views/Views_Jar04_adj copy.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.home-page {
+    min-height: 100vh;
+    background-color: black;
+    background-image: url("img/views/Views_Jar04_adj copy.jpg");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    font-size: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    width: 100%;
+    /* width: 100%; */
+    list-style: none;
+    display: flex;
+    /* display: flex; */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover{
+    background-color: #1b1b1b;
+    box-shadow: 0 0 8px 8px black inset;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    /* background-color: black; */
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.menuButton {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    .sidebar {
+        width: 50%;
+    }
+
+    .menuButton {
+        display: flex;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+}
+
+@media(max-width: 400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
