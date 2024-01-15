@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2016  Six Characters</title>
-    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="styles3.css">
 </head>
 <body>
-    <h1>2016  Six Characters</h1>
+    <h1>Theodora Skipitares</h1>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <!-- <li><a href="about.html">About</a></li> -->
+            <li><a href="websitearchive.html">Archive / Projects Before 2016</a></li>
+            <li><a href="sixcharacters.html">2016 Six Characters</a></li>
+            <li><a href="theresbloodatthewedding.html">2018 There's Blood at the Wedding: Songs for Lorca</a></li>
+            <li><a href="benjaminbanneker.html">2020 The Transfiguration of Benjamin Banneker</a></li>
+            <li><a href="grandpanorama.html">2022 Grand Panorama</a></li>
+            <li><a href="views.html">2023 Views From the Miniature City</a></li>
+        </ul>
+        <ul>
+            <!-- <li><a href="index3.html">Home <br><br></a></li> -->
+            <li><a href="about.html">About<br><br></a></li>
+            <li class="hideOnMobile"><a href="websitearchive.html">Archive / Projects Before <br>2016</a></li>
+            <li class="hideOnMobile"><a href="sixcharacters.html">Six Characters <br>2016 </a></li>
+            <li class="hideOnMobile"><a href="theresbloodatthewedding.html">There's Blood at the Wedding: Songs for Lorca  <br>2018</a></li>
+            <li class="hideOnMobile"><a href="benjaminbanneker.html">The Transfiguration of Benjamin Banneker <br>2020</a></li>
+            <li class="hideOnMobile"><a href="grandpanorama.html">Grand Panorama <br>2022 </a></li>
+            <li class="hideOnMobile"><a href="views.html">Views From the Miniature City<br>2023</a></li>
+            <li class="menuButton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <h1>Six Characters</h1>
+    <main>
+        <div>
+            <img src="img/sixcharacters/SIXCHARACTERSLOUD_Termine copy.jpg" alt="">
+        </div>
+        <div class="blurb">
+            <p>
+                With a nod to Pirandello, Six Characters, 2016 (A Family Album)  
+                explores ideas of family, reality versus illusion, and 
+                displacement. Live music by Sxip Shirey/Jordan Morton, video 
+                and giant puppet figures, including Margaret Mead, a variety of 
+                Pinocchios and Pirandello himself, highlight the evening.
+            </p>
+        </div>
+        <div>
+            <img src="img/sixcharacters/SixCharacters_3PINOS_Termineadj.2023 copy.jpg" alt="">
+        </div>
+        <div>
+            <img src="img/sixcharacters/SIXCHARACTERS_FAMILY_Termine copy 2.jpg" alt="">
+        </div>
+    </main>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
 </body>
 </html>
