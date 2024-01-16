@@ -1,5 +1,5 @@
 * {
-    color: white;
+    color:  #ccffff;
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,8 @@ body {
     background-size: 500px;
     background-repeat: no-repeat;
     background-position: bottom; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Avenir;
 }
 
 .home-page {
@@ -35,7 +36,8 @@ body {
 }
 
 p {
-  
+    font-family: Georgia;
+    color: white;
     margin: auto;
     width: 50%;
     border: 3px solid green;
