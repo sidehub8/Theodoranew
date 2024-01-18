@@ -161,9 +161,11 @@ nav li:hover {
 
 .dropdown-content {
     display: none;
-    position: absolute;
-    background-color: black;
-    padding-left: 60px;
+    /* position: absolute; */
+    /* background-color: black; */
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
     /* width: 100%; */
     /* background-color: #f9f9f9; */
     /* min-width: 160px;
