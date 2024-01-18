@@ -1,0 +1,13 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+  }
+
+img {
+    max-height: 700px;
+}
