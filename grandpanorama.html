@@ -7,31 +7,56 @@
     <link rel="stylesheet" href="styles3.css">
 </head>
 <body>
-    <h1>Theodora Skipitares</h1>
-    <!-- <h1>The Transfiguration of Benjamin Banneker</h1> -->
     <nav>
         <ul class="sidebar">
             <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <!-- <li><a href="about.html">About</a></li> -->
-            <li><a href="websitearchive.html">Archive / Projects Before 2016</a></li>
-            <li><a href="sixcharacters.html">2016 Six Characters</a></li>
-            <li><a href="theresbloodatthewedding.html">2018 There's Blood at the Wedding: Songs for Lorca</a></li>
-            <li><a href="benjaminbanneker.html">2020 The Transfiguration of Benjamin Banneker</a></li>
-            <li><a href="grandpanorama.html">2022 Grand Panorama</a></li>
-            <li><a href="views.html">2023 Views From the Miniature City</a></li>
+            <div>
+                <li><a href="about.html">About</a></li>
+            </div>
+            <div class="dropdown">
+                <li>Projects</li>
+                <div class="dropdown-content">
+                    <li><a href="views.html">2023 - Micropolis: Views From the Miniature City</a></li>
+                    <li><a href="grandpanorama.html">2022 - Grand Panorama</a></li>
+                    <li><a href="benjaminbanneker.html">2020 - The Transfiguration of Benjamin Banneker</a></li>
+                    <li><a href="theresbloodatthewedding.html">2018 - There's Blood at the Wedding: Songs for Lorca.</a></li>
+                    <li><a href="sixcharacters.html">2016 - Six Characters</a></li>
+                </div>
+              </div>
+              <div>
+                <li><a href="websitearchive.html">Archive</a></li>
+              </div>
+              <div>
+                <li><a href="contact.html">Contact</a></li>
+              </div>
         </ul>
         <ul>
-            <!-- <li><a href="index3.html">Home <br><br></a></li>
-            <li class="hideOnMobile"><a href="websitearchive.html">Archive / Projects Before <br>2016</a></li> -->
-            <li class="hideOnMobile"><a href="sixcharacters.html">Six Characters <br>2016 </a></li>
-            <li class="hideOnMobile"><a href="theresbloodatthewedding.html">There's Blood at the Wedding: Songs for Lorca  <br>2018</a></li>
-            <li class="hideOnMobile"><a href="benjaminbanneker.html">The Transfiguration of Benjamin Banneker <br>2020</a></li>
-            <li class="hideOnMobile"><a href="grandpanorama.html">Grand Panorama <br>2022 </a></li>
-            <li class="hideOnMobile"><a href="views.html">Views From the Miniature City<br>2023</a></li>
+            <div class="hideOnMobile">
+                <li><a href="about.html">About</a></li>
+            </div>
+            <div class="dropdown">
+                <li class="hideOnMobile">Projects</li>
+                <div class="dropdown-content">
+                    <li class="hideOnMobile"><a href="views.html">2023 -  Micropolis: Views From the Miniature City</a></li>
+                    <li class="hideOnMobile"><a href="grandpanorama.html">2022 - Grand Panorama</a></li>
+                    <li class="hideOnMobile"><a href="benjaminbanneker.html">2020 - The Transfiguration of Benjamin Banneker</a></li>
+                    <li class="hideOnMobile"><a href="theresbloodatthewedding.html">2018 - There's Blood at the Wedding: Songs for Lorca.</a></li>
+                    <li class="hideOnMobile"><a href="sixcharacters.html">2016 - Six Characters</a></li>
+                </div>
+              </div>
+              <div>
+                <li class="hideOnMobile"><a href="websitearchive.html">Archive</a></li>
+              </div>
+              <div>
+                <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+              </div>
             <li class="menuButton" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
     </nav>
-    <h1>Grand Panorama</h1>
+    <div class="page-title">
+        <h1 class="theodora">Theodora Skipitares</h1>
+        <h1>Grand Panorama</h1>
+    </div>
     <main>
         <div>
             <img src="img/panorama/Panorama_.DuBois copy.jpg" alt="">
@@ -39,8 +64,7 @@
         <br>
         <div class="blurb">
             <p>
-                2022  Grand Panorama
-
+            2022, <em>Grand Panorama</em> -
             Frederick Douglass is widely recognized as the most 
             photographed person in the 19th century. In Grand 
             Panorama, his obsession with photography takes center 
