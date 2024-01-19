@@ -70,7 +70,7 @@ h3 {
 }
 
 nav {
-    font-size: 12px;
+    font-size: 14px;
     /* color: pink; */
 }
 
@@ -152,7 +152,7 @@ nav li:hover {
     text-decoration: none;
     /* display: flex; */
     align-items: bottom;
-    width: 400px;
+    width: 450px;
 }
 
 /* .dropdown #projects{
