@@ -9,8 +9,17 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 50%; */
 }
+
+.splash {
+    margin: auto;
+    max-width: 70%;
+}
+
+/* #splash img {
+    width: 100px !important;
+} */
+
 
 body {
     min-height: 100vh;
@@ -30,10 +39,10 @@ body {
 .home-page {
     min-height: 100vh;
     background-color: black;
-    background-image: url("img/views/Views_Jar04_adj copy.jpg");
+    /* background-image: url("img/views/Views_Jar04_adj copy.jpg");
     background-size: 400px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: "copperplate";
 }
@@ -212,6 +221,12 @@ nav li:hover {
 }
 
 @media(max-width: 800px) {
+
+    .splash {
+        margin: auto;
+        max-width: 100%;
+    }
+
     p {
         margin: auto;
         width: 100%;
