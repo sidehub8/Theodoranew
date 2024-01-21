@@ -183,9 +183,9 @@ nav li:hover {
     z-index: 1; */
 }
 
-.dropdown:hover .dropdown-content {
+/* .dropdown:hover .dropdown-content {
     display: block;
-}
+} */
 
 /* nav li:first-child{
     margin-right: auto;
@@ -294,8 +294,8 @@ nav li:hover {
     }
     
     .dropdown:hover .dropdown-content {
-        backdrop-filter: blur(10px);
-        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+        /* backdrop-filter: blur(10px);
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1); */
         display: block;
     }
 
