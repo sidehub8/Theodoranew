@@ -183,9 +183,9 @@ nav li:hover {
     z-index: 1; */
 }
 
-/* .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-} */
+}
 
 /* nav li:first-child{
     margin-right: auto;
