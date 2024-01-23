@@ -157,7 +157,7 @@ nav a {
 }
 
 nav a:hover{
-    color: beige;
+    color: #ffcccc;
     /* background-color: #1b1b1b;
     box-shadow: 0 0 8px 8px black inset; */
     /* backdrop-filter: blur(10px);
@@ -165,7 +165,7 @@ nav a:hover{
 }
 
 nav li:hover {
-    color: beige;
+    color: #ffcccc;
 }
 
 #projects {
@@ -181,7 +181,7 @@ nav li:hover {
     text-decoration: none;
     /* display: flex; */
     align-items: bottom;
-    width: 450px;
+    width: 485px;
 }
 
 /* .dropdown #projects{
